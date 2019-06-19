@@ -8,4 +8,14 @@ class Person
     @name
 
   end
+
+  def job=(input_job)
+    @job=input_job
+
+  end
+
+  def job
+    @job
+
+  end
 end
